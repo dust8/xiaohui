@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+
+[packages]
+speechrecognition = "*"
+pyaudio = {path = "./PyAudio-0.2.11-cp37-cp37m-win_amd64.whl"}
+gtts = "*"
+playsound = "*"
+lnkparse3 = "*"
+fuzzywuzzy = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
